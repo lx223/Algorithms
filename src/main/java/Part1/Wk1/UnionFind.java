@@ -1,4 +1,4 @@
-package Wk1;
+package Part1.Wk1;
 
 /**
  * Created by Lan on 21/01/2015.
@@ -40,5 +40,16 @@ public class UnionFind {
             root = pts[root];
         }
         return root;
+    }
+
+    public static void main(String[] args) {
+        UnionFind unionFind = new UnionFind(10);
+
+        unionFind.union(1, 2);
+        unionFind.union(3, 2);
+        unionFind.union(3, 4);
+        if (unionFind.connected(1, 4)) {
+            System.out.println("HelloWorld!");
+        }
     }
 }
