@@ -1,2 +1,2 @@
 # Algorithms
-This project serves as an exercise for the Coursera course on algorithms and data structures.
+This project serves as an exercise to implement the algorithms and datastructures taught by a Coursera course.
